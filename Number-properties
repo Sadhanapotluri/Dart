@@ -1,0 +1,24 @@
+//Number-properties
+  
+void main() { 
+   int num1 = 10;                  
+   
+   // declare an integer 
+   double num2 = 10.50;  
+   
+   // declare a double value 
+   print(num1); 
+   print(num2); 
+ 
+   // Properties
+   
+   print(num1.hashcode);//hashcode fora given numerical value
+   print(num1.isFinite);//true if num1 is finite
+   print(num1.isNaN);//true if num1 is not a number
+   print(num1.isNegative);//true if num1 is negative
+   print(num1.sign);//1 if positive,-1 if negative else 0
+   print(num1.isEven);//true if num1 is even 
+   print(num1.isOdd);//true if num1 is odd
+  
+  
+}
