@@ -1,0 +1,21 @@
+//usage of for loop
+
+void main() { 
+   var num = 5; 
+   var fact = 1; 
+   
+   for( var i = num ; i >= 1; i-- ) { 
+      fact *= i ; 
+   } 
+   print('the factorial is:${fact}'); 
+}
+
+//usage of for..in loop
+
+void main() { 
+   var obj = [12,13,14]; 
+   
+   for (var prop in obj) {      //test's the membership
+      print(prop); 
+   } 
+}
