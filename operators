@@ -1,0 +1,55 @@
+void main() { 
+   var a = 11; 
+   var b = 2; 
+  
+   //Arithmetic operators
+  
+  print(a+b);//add
+  print(a-b);//subtract
+  print(-a);//unary minus
+  print(a*b);//multiply
+  print(a/b);//divide returning any value
+  print(a~/b);//divide returning only an integer
+  print(a%b);//remainder
+  print(a++);//increment
+  print(a--);//decrement
+  
+  //Equality and Relational Operators
+  
+  print(a>b);//greater than
+  print(a<b);//lesser than
+  print(a>=b);//greater than or equal to
+  print(a<=b);//less than or equal to
+  print(a==b);//equality
+  print(a!=b);//not equal
+  
+  //Type test Operators
+  
+  print((a is String));
+  print((a is! String));
+  
+  //Bitwise Operators
+  
+  print(a&b);//bitwise and
+  print(a|b);//bitwise or
+  print(a^b);//bitwise xor
+  print(~a);//bitwise not
+  print(a<<b);//left shift
+  print(a>>b);//sign propogating right shift
+  
+  //Assignment Operators
+  
+  print(a=10);//simple assignment
+  print(a??=b);//assigns only if a is null
+  print(a+=b);//add and assign
+  print(a-=b);//subtract and assign
+  print(a*=b);//multiply and assign
+  print(a/=b);//divide and assign
+  
+  //Logical Operators
+  
+  print(a>10 && b<10);//logical and
+  print(a>10 || b<5);//logical or
+  print(!(a>b));//not
+
+}
