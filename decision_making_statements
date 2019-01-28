@@ -1,0 +1,56 @@
+//decision making statements
+//1.if statement
+
+void main() { 
+   var  num=5; 
+   if (num>0) { 
+      print("number is positive"); 
+   }    
+}
+
+//2.if..else statement
+
+void main() { 
+   var num = 12; 
+   if (num % 2==0) { 
+      print("Even"); 
+   } else { 
+      print("Odd"); 
+   } 
+}
+
+//3.elseif ladder
+
+void main() { 
+   var num = 2; 
+   if(num > 0) { 
+      print("${num} is positive"); 
+   } 
+   else if(num < 0) { 
+      print("${num} is negative"); 
+   } else { 
+      print("${num} is neither positive nor negative"); 
+   } 
+}  
+
+//4.switch case
+
+void main() { 
+   var grade = "A"; 
+   switch(grade) { 
+      case "A": {  print("Excellent"); } 
+      break; 
+     
+      case "B": {  print("Good"); } 
+      break; 
+     
+      case "C": {  print("Fair"); } 
+      break; 
+     
+      case "D": {  print("Poor"); } 
+      break; 
+     
+      default: { print("Invalid choice"); } 
+      break; 
+   } 
+}  
