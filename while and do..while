@@ -1,0 +1,23 @@
+//usage of while loop
+
+void main() { 
+   var num = 5; 
+   var factorial = 1; 
+   
+   while(num >=1) { 
+      factorial = factorial * num; 
+      num--; 
+   } 
+   print("The factorial  is ${factorial}"); 
+}  
+
+//usage of do..while loop
+
+void main() { 
+   var n = 10; 
+   do { 
+      print(n); 
+      n--; 
+   }
+   while(n>=0); 
+}  
