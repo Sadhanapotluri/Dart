@@ -1,0 +1,30 @@
+//Lists-Properties and Methods
+
+void main() { 
+   var num_list = [1,2,3]; 
+   print(num_list);
+  
+   //Properties
+   
+   print(num_list.first);//returns first element of list
+  
+   print(num_list.isEmpty);//returns true if list is empty
+  
+   print(num_list.isNotEmpty);//returns true if list is not empty
+  
+   print(num_list.length);//returns number of elements present in the list
+  
+   print(num_list.last);//returns last element of list
+  
+   print(num_list.reversed);//iterable object containing elements in reverse order
+  
+   print(num_list.single);//returns true if there is only one object in the list
+  
+  //Basic Operations
+  
+   num_list.add(4);//add new element to list
+  
+   num_list[0]=5;//update
+  
+   num_list.remove(4);//removing an element from the list
+}
