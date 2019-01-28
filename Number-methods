@@ -1,0 +1,35 @@
+//Number-methods
+
+void main() { 
+   int num1 = 10;                  
+   
+   // declare an integer 
+   double num2 = 10.50;  
+   
+   // declare a double value 
+   print(num1); 
+   print(num2); 
+  
+  //methods of Number class
+  
+  print((-10).abs());//absolute value of the given number
+  
+  print(num2.ceil());//ceiling of num2
+  
+  print(num2.floor());//floor value of num2
+  
+  print(10.compareTo(num2));//-1 if 10<num2,0 if 10==num2,1 if 10>num2
+  
+  print(num1.remainder(2));//remainder when num1 divided by 2
+  
+  print(num2.round());//num2 rounded to its nearest integer
+  
+  print(num1.toDouble());//double representation of num1
+  
+  print(num2.toInt());//int representation of num2
+  
+  print(num1.toString());//string representing specified number object
+  
+  print(num2.truncate());//integer after discarding fractional digits
+  
+}
