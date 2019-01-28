@@ -1,0 +1,35 @@
+//Strings-Properties and Methods
+
+void main() { 
+   String str1 = "hello"; 
+   String str2 = "WORLD"; 
+   String res = str1+str2; 
+   
+   print("The concatenated string : ${res}"); 
+  
+   //Properties
+  
+   print(str1.codeUnits);//list of the UTF-16 code units of str1
+   
+   print(str1.isEmpty);//true if str1 is empty
+  
+   print(str1.length);//length of str1
+  
+   //Methods
+  
+   print(str2.toLowerCase());//new string with all characters in lower case
+  
+   print(str1.toUpperCase());//new string with all characters in upper case
+  
+   print(str1.trim());//removes any leading and trailing spaces but not space between two strings
+  
+   print(str1.compareTo(str2));//0 if equal,1 if str1>str2,-1 if str1<str2
+  
+   print(str1.replaceAll('llo','eey!'));//replaces all substrings that match with pattern('llo') 
+  
+   print(str1.split(''));//returns a list seperated with specified delimiters
+  
+   print(str1.substring(0,2));//returns string between specified indices
+  
+   print(str1.codeUnitAt(1));//returns the 16-bit UTF-16 code unit at the given index
+}
